@@ -1,0 +1,39 @@
+<section id="pemesanan-content" class="page-content">
+    <h2 class="text-4xl font-bold text-center text-amber-900 mb-8">Pesan Kue Impian Anda</h2>
+    <div class="bg-white p-8 rounded-xl shadow-lg max-w-3xl mx-auto">
+        <p class="mb-6 text-gray-600">Apakah Anda merayakan ulang tahun, pernikahan, atau acara khusus lainnya? Kami siap membuat kue yang sepenuhnya disesuaikan dengan tema dan selera Anda.</p>
+        <form action="#" method="POST">
+            <div class="grid md:grid-cols-2 gap-4 mb-4">
+                <div>
+                    <label for="nama_pemesan" class="block text-sm font-medium text-gray-700">Nama Lengkap</label>
+                    <input type="text" id="nama_pemesan" name="nama_pemesan" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 focus:border-pink-500 focus:ring-pink-500">
+                </div>
+                <div>
+                    <label for="email_pemesan" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email_pemesan" name="email_pemesan" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 focus:border-pink-500 focus:ring-pink-500">
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-4 mb-4">
+                <div>
+                    <label for="tanggal_acara" class="block text-sm font-medium text-gray-700">Tanggal Acara</label>
+                    <input type="date" id="tanggal_acara" name="tanggal_acara" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 focus:border-pink-500 focus:ring-pink-500">
+                </div>
+                <div>
+                    <label for="jenis_kue" class="block text-sm font-medium text-gray-700">Jenis Kue</label>
+                    <select id="jenis_kue" name="jenis_kue" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 focus:border-pink-500 focus:ring-pink-500">
+                        <option value="">Pilih Jenis</option>
+                        <option value="ulang_tahun">Ulang Tahun</option>
+                        <option value="pernikahan">Pernikahan</option>
+                        <option value="cupcake">Set Cupcake</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="deskripsi" class="block text-sm font-medium text-gray-700">Deskripsi Detail Kue (Tema, Warna, Rasa)</label>
+                <textarea id="deskripsi" name="deskripsi" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 focus:border-pink-500 focus:ring-pink-500"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-amber-600 text-white font-semibold py-3 rounded-md shadow-md hover:bg-amber-700 transition duration-300 transform hover:scale-[1.01]">Kirim Permintaan Pesanan</button>
+        </form>
+        </div>
+</section>
